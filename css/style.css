@@ -208,7 +208,7 @@ p { margin: 0 0 1.1em; }
 .gallery img { aspect-ratio: 4 / 5; }
 .gallery figure:nth-child(1) img { object-position: 50% 75%; }
 .gallery figure:nth-child(2) img { object-position: 45% 50%; }
-.gallery figure:nth-child(3) img { object-position: 40% 50%; }
+.gallery figure:nth-child(3) img { object-position: 50% 30%; }
 .gallery figure:nth-child(2) { margin-top: 48px; }
 .gallery figcaption { font-size: .88rem; color: var(--dark-muted); margin-top: 14px; display: flex; align-items: center; gap: 12px; }
 .gallery figcaption::before { content: ""; width: 20px; height: 1px; background: var(--dark-gold); }
