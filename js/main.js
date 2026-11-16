@@ -14,7 +14,7 @@
     var dark = isDark();
     toggle.setAttribute('aria-label', dark ? 'Switch to light mode' : 'Switch to dark mode');
     var meta = document.querySelector('meta[name="theme-color"]');
-    if (meta) meta.setAttribute('content', dark ? '#141210' : '#fbf6ec');
+    if (meta) meta.setAttribute('content', dark ? '#0f0e0c' : '#f6f2ea');
   }
   toggle.addEventListener('click', function () {
     var next = isDark() ? 'light' : 'dark';
@@ -86,4 +86,23 @@
   });
 
   document.getElementById('year').textContent = new Date().getFullYear();
+
+  /* ---------- Header state on scroll ---------- */
+  var header = document.getElementById('siteHeader');
+  function onScroll() { header.classList.toggle('scrolled', window.scrollY > 8); }
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+
+  /* ---------- Reveal on scroll ---------- */
+  var items = document.querySelectorAll('.reveal');
+  if ('IntersectionObserver' in window) {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        if (en.isIntersecting) { en.target.classList.add('in'); io.unobserve(en.target); }
+      });
+    }, { rootMargin: '0px 0px -8% 0px', threshold: 0.08 });
+    items.forEach(function (el) { io.observe(el); });
+  } else {
+    items.forEach(function (el) { el.classList.add('in'); });
+  }
 })();

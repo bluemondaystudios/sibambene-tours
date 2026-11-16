@@ -1,7 +1,7 @@
 # Sibambene Tours website
 
 Static one-page site for Sibambene Tours (transport for hire, Mpumalanga), designed by Blue Monday Studios.
-The design draws on Ndebele wall painting and beadwork: bold black outlines, flat bead colours and stepped geometry. It has light and dark modes.
+The look is modern and premium (serif display type, ivory/charcoal with a gold accent), with Ndebele detail in a beaded-colour strand and fine line patterns. It has light and dark modes.
 
 ## Structure
 - `index.html`: the page (hero, services, fleet, meet the leader, destinations, booking)
