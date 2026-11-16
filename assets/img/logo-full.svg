@@ -30,29 +30,36 @@
 </g>
 <g fill="#141414"><circle cx="160" cy="337" r="3"/><circle cx="180" cy="341" r="3"/><circle cx="200" cy="342" r="3"/><circle cx="220" cy="341" r="3"/><circle cx="240" cy="337" r="3"/></g>
 </g>
-<!-- horns: open, embracing arms around the sun -->
-<g stroke="#141414" stroke-width="5" stroke-linejoin="round" fill="#fbf6ec">
-<path d="M170 172 C126 176 96 150 104 96 C116 128 138 148 174 150Z"/>
-<path d="M230 172 C274 176 304 150 296 96 C284 128 262 148 226 150Z"/>
+<!-- bull horns: heavy at the base, sweeping out wide then up, open like arms around the sun -->
+<g stroke="#141414" stroke-width="5" stroke-linejoin="round">
+<path d="M176 178 C128 184 80 166 76 118 C74 98 82 82 96 68 C96 92 104 112 128 124 C146 132 162 134 176 134Z" fill="#fbf6ec"/>
+<path d="M224 178 C272 184 320 166 324 118 C326 98 318 82 304 68 C304 92 296 112 272 124 C254 132 238 134 224 134Z" fill="#fbf6ec"/>
+<path d="M77 108 C78 92 86 78 96 68 C96 80 98 92 102 102 C94 104 86 106 77 108Z" fill="#3a2a22"/>
+<path d="M323 108 C322 92 314 78 304 68 C304 80 302 92 298 102 C306 104 314 106 323 108Z" fill="#3a2a22"/>
+<path d="M118 150 C122 140 124 132 122 124 M140 156 C142 148 142 140 140 132" fill="none" stroke-width="3"/>
+<path d="M282 150 C278 140 276 132 278 124 M260 156 C258 148 258 140 260 132" fill="none" stroke-width="3"/>
 </g>
 <!-- ears -->
 <g stroke="#141414" stroke-width="4.5" stroke-linejoin="round" fill="#6e3a1f">
-<path d="M160 182 L118 190 Q132 210 160 206Z"/><path d="M240 182 L282 190 Q268 210 240 206Z"/>
-<path d="M150 190 L130 193 Q140 202 154 201Z" fill="#c98a5a" stroke-width="0"/>
-<path d="M250 190 L270 193 Q260 202 246 201Z" fill="#c98a5a" stroke-width="0"/>
+<path d="M154 184 L114 194 Q128 214 156 208Z"/><path d="M246 184 L286 194 Q272 214 244 208Z"/>
 </g>
-<!-- head -->
-<path d="M166 152 L234 152 L248 190 L236 248 L218 290 L182 290 L164 248 L152 190Z" fill="#9a5630" stroke="#141414" stroke-width="5" stroke-linejoin="round"/>
-<path d="M200 160 L214 184 L200 208 L186 184Z" fill="#fbf6ec" stroke="#141414" stroke-width="3.5" stroke-linejoin="round"/>
-<path d="M200 172 L207 184 L200 196 L193 184Z" fill="#d62828"/>
-<!-- calm, content eyes -->
-<g fill="none" stroke="#141414" stroke-width="4.5" stroke-linecap="round">
-<path d="M168 218 Q177 226 186 218"/><path d="M214 218 Q223 226 232 218"/>
+<!-- head: broad brow, strong jaw -->
+<path d="M158 142 L242 142 L256 188 L242 246 L228 284 L172 284 L158 246 L144 188Z" fill="#9a5630" stroke="#141414" stroke-width="5" stroke-linejoin="round"/>
+<path d="M162 142 L174 128 L186 142 L200 124 L214 142 L226 128 L238 142Z" fill="#6e3a1f" stroke="#141414" stroke-width="4" stroke-linejoin="round"/>
+<path d="M200 156 L214 180 L200 204 L186 180Z" fill="#fbf6ec" stroke="#141414" stroke-width="3.5" stroke-linejoin="round"/>
+<path d="M200 168 L207 180 L200 192 L193 180Z" fill="#d62828"/>
+<!-- calm, half-lidded eyes -->
+<g stroke="#141414" stroke-width="3.5" stroke-linejoin="round">
+<path d="M164 211 L186 211 Q175 225 164 211Z" fill="#fbf6ec"/><path d="M214 211 L236 211 Q225 225 214 211Z" fill="#fbf6ec"/>
 </g>
-<!-- muzzle with a gentle smile -->
-<ellipse cx="200" cy="268" rx="34" ry="26" fill="#e3b892" stroke="#141414" stroke-width="5"/>
-<ellipse cx="187" cy="262" rx="5" ry="7" fill="#141414"/><ellipse cx="213" cy="262" rx="5" ry="7" fill="#141414"/>
-<path d="M188 280 Q200 288 212 280" fill="none" stroke="#141414" stroke-width="3.5" stroke-linecap="round"/>
+<circle cx="175" cy="214.5" r="3.6" fill="#141414"/><circle cx="225" cy="214.5" r="3.6" fill="#141414"/>
+<g stroke="#141414" stroke-width="4.5" stroke-linecap="round"><path d="M162 210.5 H188 M212 210.5 H238"/></g>
+<!-- broad muzzle, no mouth -->
+<path d="M166 250 Q200 240 234 250 Q246 271 233 292 Q200 302 167 292 Q154 271 166 250Z" fill="#e3b892" stroke="#141414" stroke-width="5" stroke-linejoin="round"/>
+<g fill="#141414">
+<ellipse cx="185" cy="270" rx="5" ry="8" transform="rotate(-18 185 270)"/>
+<ellipse cx="215" cy="270" rx="5" ry="8" transform="rotate(18 215 270)"/>
+</g>
 </g>
 <text x="280" y="500" text-anchor="middle" font-family="Unbounded, 'Arial Black', Arial, sans-serif" font-weight="800" font-size="62" fill="#141414" letter-spacing="1">SIBAMBENE</text>
 <g transform="translate(0 528)">
